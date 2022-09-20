@@ -1,0 +1,55 @@
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(10em, 15%), 1fr));
+    /* с row-gap обрезается высота */
+    /* row-gap: 2%; */
+    justify-self: center;
+    column-gap: 5%;
+
+}
+
+
+.bookItem {
+    width: 10em;
+    justify-self: center;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.bookItem:hover {
+    box-shadow: 0px 5px 8px 0px rgb(0 0 0 / 16%);
+    /* background-color: #000000; */
+}
+
+.bookItem:hover .book__name {
+    color: #F28D5F;
+}
+
+.bookItem:hover .book__author {
+    color: #000000;
+}
+
+.bookItem:hover .book__cover {
+    filter: brightness(50%);
+}
+
+.book__cover {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.book__text {
+    text-align: center;
+}
+
+.book__name {
+    color: #000000;
+    font-weight: 600;
+}
+
+.book__author {
+   color: #00000080;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+}

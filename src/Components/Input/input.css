@@ -1,0 +1,25 @@
+.input {
+  /* margin: 0 auto; */
+  padding: 3%;
+  border-radius: 15px;
+  font-size: 95%;
+  height: fit-content;
+  width: 93%;
+}
+
+.input:invalid {
+  border: 2px solid red;
+}
+
+.input__form {
+  max-width: 1120px;
+  padding: 2% 3%;
+  width: 100%;
+}
+
+.right-search__input {
+  background: #FFFFFF;
+  border-radius: 50px;
+  width: 25vw;
+  border: none;
+}

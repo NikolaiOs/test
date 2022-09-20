@@ -1,0 +1,37 @@
+
+.slider {
+    margin-bottom: 72px;
+}
+
+.slider__container {
+    width: 90%;
+    margin: 0 auto;   
+}
+
+.slider__text {
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.slider__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.slider__all {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(255, 61, 0, 0.3);
+    border-radius: 50px;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.slick-slide div {
+    padding: 0 0.5em;
+}

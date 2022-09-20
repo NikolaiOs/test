@@ -1,0 +1,42 @@
+.reader {
+
+}
+
+.reader__container {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.reader__header {
+    width: 100%;
+}
+
+.reader__header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reader__header-nav-left {
+    margin: 5px 0;
+}
+
+.header-nav-left__link {
+    display: flex;
+}
+
+.reader__header-nav-right {
+    display: flex;
+    height: 48px;
+}
+
+.header-nav-right__item {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.header-nav-right__item:last-of-type {
+    margin-right: 0;
+}

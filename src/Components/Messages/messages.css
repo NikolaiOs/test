@@ -1,0 +1,20 @@
+.messages {
+    max-width: 1140px;
+    min-height: 200px;
+    margin: 5% auto;
+    color: black;
+    /* width: 85%; */
+  }
+
+
+  .messages__wrap{
+    margin: 0 auto;
+    -webkit-box-flex: 8;
+        -ms-flex-positive: 8;
+            flex-grow: 8;
+    margin-top: 10vh;
+    width: 45%;
+  }
+  
+
+  

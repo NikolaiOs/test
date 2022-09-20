@@ -1,0 +1,76 @@
+.home {
+    padding: 1%;
+}
+
+.home__text {
+font-family: 'Forum', cursive;
+font-size: 56px;
+line-height: 62px;
+margin: 1em 0 2em;
+}
+
+.slick-arrow {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.slider__book__description {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.slider__editor {
+    height: 368px;
+    background: linear-gradient(to right, #FFE3D6 , #FFEEDE);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.editor__book {
+    height: 60%;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 5fr;
+    column-gap: 3em;
+    row-gap: 5%;
+}
+
+.slider_book-cover {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 80%;
+    justify-self: end;
+    display: flex;
+}
+
+.slider__book-name {
+    grid-row-start: 1;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    height: 100%;
+}
+
+.slider__book-description {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    height: 100%;
+}
+
+.slider__sign {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    line-height: 18.5px;
+    font-weight: 500;
+    right: 3em;
+    top: 2em;
+}

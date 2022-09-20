@@ -1,0 +1,138 @@
+
+.wrapper {
+  /* display: flex;
+  flex-direction: column;*/
+  min-height: 100vh; 
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+  
+.content {
+}
+
+.gradient {
+    background: linear-gradient(to bottom, #D8CDC3, #F5F5F5, #D8CDC3);
+}
+
+.no-gradient {
+    background-color: #FFFFFF;
+    height: 100%;
+}
+  
+.footer {
+  height: 10em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #C9C9C9;
+  background-color: #FAFAFA; 
+}
+
+.header {
+    width: 100%;
+    background: #EEE9E4;
+}
+
+.header__container {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-link {
+    display: block;
+    margin: 12px 40px;
+}
+
+.header__logo-link:first-of-type {
+    margin-left: 0;
+}
+
+.header__logo-img {
+    display: block;
+    height: 48px;
+}
+
+.header__left-nav {
+    display: flex;
+}
+
+.left-nav__link {
+    display: block;
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.left-nav__link:last-of-type {
+    margin-right: 0;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__right-search {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+    align-items: center;
+    position: relative;
+}
+
+.right-search__icon {
+    display: flex;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+}
+
+/* .right-search__input {
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 305px;
+    height: 40px;
+    border: none;
+} */
+
+.header__right-link {
+    margin-right: 48px;
+    border-radius: 50px;
+}
+
+.header__right-link_color {
+    background: #F28D5F;
+}
+
+.header__right-link:last-of-type {
+    margin-right: 0;
+}
+
+.right-link__item {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.right-link__item_left {
+    color: #FFFFFF;
+}

@@ -1,0 +1,50 @@
+/** {*/
+/*    outline-width: 1px;*/
+/*    outline-style: solid;*/
+/*    outline-color: gray;*/
+/*}*/
+
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.link:hover {
+  color: #F28D5F;
+}
+
+.link__auth {
+ text-align: center;
+ margin-top: 1em;
+}
+
+
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.p {
+  margin: 1% 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 2em;
+}
+
+.no-decoration {
+  text-decoration: none;
+}

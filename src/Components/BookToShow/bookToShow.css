@@ -1,0 +1,48 @@
+
+.book {
+justify-self: center;
+text-decoration: none;
+border-radius: 20px;
+}
+
+.book_page {
+margin: 5% 0;
+padding: 2%;
+} 
+
+.book:hover {
+    box-shadow: 0px 5px 8px 0px rgb(0 0 0 / 16%);
+}
+
+.book:hover .book__name {
+    color: #F28D5F;
+}
+
+.book:hover .book__author {
+    color: #000000;
+}
+
+.book:hover .book__cover {
+    filter: brightness(50%);
+}
+
+.book__cover {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.book__text {
+    text-align: center;
+}
+
+.book__name {
+    color: #000000;
+    font-weight: 600;
+}
+
+.book__author {
+   color: #00000080;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+}
