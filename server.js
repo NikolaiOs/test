@@ -1,35 +1,28 @@
-// const express = require('express');
-// const favicon = require('express-favicon');
-// const path = require('path');
-// const port = process.env.PORT || 8080;
+// const express = require('express')
 //
-// // здесь у нас происходит импорт пакетов и определяется порт нашего сервера
-// const app = express();
-// app.use(favicon(__dirname + '/build/favicon.png'));
+// const app = express()
 //
-// //здесь наше приложение отдаёт статику
-// app.use(express.static(__dirname));
-// app.use(express.static(path.join(__dirname, 'build')));
+// const port = process.env.PORT || 3000
+// app.listen(port)
+// console.log(`Server started on port ${port}!`)
 //
-// //простой тест сервера
-// app.get('/ping', function (req, res) {
-//     return res.send('pong');
-// });
-//
-// //обслуживание html
-// app.get('/*', function (req, res) {
-//     res.sendFile(path.join(__dirname, 'build', 'index.html'));
-// });
-// app.listen(port);
+// app.get('/', (req, res) => {
+//     // res.send('hello')
+//     fs.readFile(`./src/index.js`, 'utf8', (err, data) => {
+//         res.send(data);
+//     })
+// })
 
-const express = require('express');
-const path = require('path');
-const app = express();
+const express = require('express')
+const path = require('path')
+const app = express()
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'build')))
 
-app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 
-app.listen(9000);
+app.listen(3000, () => {
+    console.log('Server started!')
+})

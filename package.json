@@ -14,8 +14,9 @@
     "@testing-library/user-event": "^13.5.0",
     "a": "^2.1.2",
     "all": "^0.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
     "firebase": "^9.9.3",
-    "heroku": "^7.63.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -29,7 +30,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -53,8 +55,6 @@
     ]
   },
   "devDependencies": {
-    "express": "^4.18.1",
-    "express-favicon": "^2.0.1",
-    "path": "^0.12.7"
+    "nodemon": "^2.0.20"
   }
 }
